@@ -1,0 +1,63 @@
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-image: url('public/img/pattern.jpg');
+    font-size: 14px;
+    color: black;    
+}
+
+nav {
+    background: rgb(179, 176, 176);
+    height: 50px;
+    width: 100%;
+}
+
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 20px;
+    margin: 0 5px;
+}
+
+nav ul li a{
+    color: white;
+    font-size: 17px;
+    padding: 7px 13;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+
+a.active,a:hover{
+    background: #1b9bff;
+    transition: .5s;
+}
+
+section {
+    background: rgb(201, 194, 194);
+    position: relative;
+    width: 900px;
+    height: 100%;
+    margin: 0 auto;;
+    padding: 10px;
+}
+
+hr { 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+  } 
+
+footer { 
+    color: white;
+    text-align: center;
+    background-color: #000;
+    height: 20px;    
+}
